@@ -2,21 +2,21 @@ Captcha Image Creator(Pcic)
 ===========================
 一个PHP写的中文验证码图片生成工具，仅生成验证码图片不进行缓存，需封装使用。
 
-Installation
-------------
-Install the latest stable version using composer:
+安装
+----
+使用 Composer 安装：
 
 ```
 composer require guojikai/captcha-image-creator
 ```
-And add the require in your index file: (eg. index.php)
+在入口文件引入 Composer 启动脚本： (eg. index.php)
 
 ```php
 require 'vendor/autoload.php';
 ```
 
-Usege
------
+使用
+----
 ```php
 <?php
 
@@ -30,7 +30,7 @@ try {
 	echo $e->getMessage();
 }
 
-//will output a image
+//将直接显示验证码图片
 
 ?>
 ```
