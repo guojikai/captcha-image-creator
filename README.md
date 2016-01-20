@@ -1,6 +1,6 @@
 Captcha Image Creator(Pcic)
 ===========================
-A captcha image creator,written by PHP. 一个PHP写的支持的中文的验证码图片生成工具，仅生成验证码图片不进行缓存，需二次封装使用。
+一个PHP写的中文验证码图片生成工具，仅生成验证码图片不进行缓存，需封装使用。
 
 Installation
 ------------
